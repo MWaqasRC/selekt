@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Alako';
+    src: url('Alako-Bold.eot');
+    src: url('Alako-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Alako-Bold.woff2') format('woff2'),
+        url('Alako-Bold.woff') format('woff'),
+        url('Alako-Bold.ttf') format('truetype'),
+        url('Alako-Bold.svg#Alako-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DaxCompact';
+    src: url('DaxCompact-Bold.eot');
+    src: url('DaxCompact-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DaxCompact-Bold.woff2') format('woff2'),
+        url('DaxCompact-Bold.woff') format('woff'),
+        url('DaxCompact-Bold.ttf') format('truetype'),
+        url('DaxCompact-Bold.svg#DaxCompact-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

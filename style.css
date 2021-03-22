@@ -947,11 +947,14 @@ footer {
     width: 100%;
     height: auto;
     padding-top: 90px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer input, footer h4, p a, textarea {
+    font-family: 'PT Sans', sans-serif;
 }
 
 footer h4 {
-    font-family: sans-serif;
-    /*font-family: 'PT Sans', sans-serif;*/
     font-size: 20px;
     color: #fff;
     font-weight: 700;
@@ -1113,7 +1116,6 @@ input.footer-input:-webkit-autofill:focus {
 }
 
 .bg-copyrights p {
-    font-family: sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #838383;
@@ -2287,6 +2289,6 @@ ol.gradient-list>div>li:hover {
     justify-content: space-between;
 }
 
-ol.gradient-list.location-list > div {
+ol.gradient-list.location-list>div {
     margin-left: 1rem;
 }

@@ -233,13 +233,24 @@ ul.sub-menu ul {
 }
 
 .selekt_banner {
-    background: url(images/banner1.jpg) no-repeat top center;
+    background: #b01117 no-repeat top center;
     width: 73%;
     min-height: 800px;
     background-size: cover;
     margin: auto;
     padding-top: 200px;
 }
+
+/* .selekt_banner .img-fluid {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 73%;
+    min-height: 800px;
+    opacity: 0;
+    height: 100%;
+    overflow: hidden;
+} */
 
 .selekt_banner_heading,
 .selekt_banner_btn {
@@ -510,7 +521,7 @@ ul.sub-menu ul {
 
 .sec-1 h2,
 .heading {
-    font-size: 58px;
+    font-size: calc(35px + (58 - 35) * ((100vw - 300px) / (1600 - 300)));
     color: rgb(176, 17, 23);
     text-transform: uppercase;
     margin-bottom: 6px;
@@ -525,7 +536,7 @@ ul.sub-menu ul {
     margin-bottom: 0px;
     text-transform: capitalize;
     text-shadow: none;
-    font-family: sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .sec-1 p,
@@ -534,6 +545,7 @@ ul.sub-menu ul {
     font-weight: 400;
     color: #333333;
     margin-bottom: 50px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 #sec-1-slider {}
@@ -950,7 +962,14 @@ footer {
     font-family: 'PT Sans', sans-serif;
 }
 
-footer input, footer h4, p a, textarea {
+footer input,
+footer h4,
+p a,
+button,
+input,
+optgroup,
+select,
+textarea {
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -1175,31 +1194,11 @@ input.footer-input:-webkit-autofill:focus {
     color: #fff;
 }
 
-.about-content h2,
-.vs-contact-wrapper h2 {
-    font-size: 58px;
-    color: #b01117;
-    /*  text-shadow: 0px 2px 0px rgb(0 0 0 / 50%);*/
-    font-weight: 700;
-    text-transform: uppercase;
-    /*font-family: 'Abril Fatface', cursive;*/
-}
-
 .about-content p.text-theme,
 .vs-contact-wrapper .sec-subtitle {
     font-size: 25px;
     color: #333333;
     margin-bottom: 10px;
-    font-family: sans-serif;
-    /*font-family: 'PT Sans', sans-serif;*/
-}
-
-.about-content p.about-text,
-.vs-contact-wrapper p {
-    font-size: 14px;
-    font-weight: 400;
-    color: #333333;
-    margin-bottom: 20px;
 }
 
 .vs-contact-wrapper p {
@@ -1232,7 +1231,6 @@ form.contact-form.contact-form-style1 {
 }
 
 .menu-section .text-theme {
-    font-family: sans-serif;
     font-size: 25px;
     color: #333333;
     margin-bottom: 10px;
@@ -1295,7 +1293,6 @@ h2.sec-title1 {
 }
 
 .menu-wrapper-2 h4 {
-    font-family: sans-serif;
     font-size: 26px;
     color: #000;
 }
@@ -1636,6 +1633,41 @@ textarea.contact-input:-webkit-autofill:focus {
 }
 
 @media (max-width: 991px) {
+    #img-container {
+        transform: translateX(-50%) scale(0.77);
+        -webkit-transform: translateX(-50%) scale(0.77);
+        left: 50%
+    }
+
+    #store-location .gradient-list.location-list {
+        height: 190px;
+        width: 100%;
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        font-size: 85%;
+        overflow: auto;
+    }
+
+    #store-location ol.gradient-list>div>li::before,
+    #store-location ol.gradient-list>div>li::after {
+        height: 2.3rem;
+        width: 2.3rem;
+        left: 0;
+    }
+
+    #store-location ol.gradient-list>div>li {
+        margin-top: .5rem;
+        padding: .7rem .5rem .7rem 2.5rem;
+        min-height: auto;
+    }
+
+    #store-location .single-border {
+        width: 15%;
+    }
+
     .bg-top ul.call-top {
         margin-left: 0px;
         margin-top: 30px;
@@ -1816,6 +1848,11 @@ textarea.contact-input:-webkit-autofill:focus {
 }
 
 @media (max-width: 575px) {
+    #img-container {
+        transform: translateX(-50%) scale(0.50);
+        -webkit-transform: translateX(-50%) scale(0.50);
+        left: 50%
+    }
 
     .selekt_banner_heading,
     .selekt_banner_btn {
@@ -1920,11 +1957,6 @@ textarea.contact-input:-webkit-autofill:focus {
         left: 0;
     }
 
-    .about-content h2,
-    .vs-contact-wrapper h2 {
-        font-size: 34px;
-    }
-
     form.contact-form.contact-form-style1 {
         padding: 40px 15px;
         background-size: cover;
@@ -1937,9 +1969,6 @@ textarea.contact-input:-webkit-autofill:focus {
 
 ol.gradient-list {
     position: absolute;
-    width: 33.33%;
-    left: -200px;
-    top: -100px;
 }
 
 ol.gradient-list .right-gra {
@@ -2020,7 +2049,7 @@ body {
 body {
     background-color: #fafafa;
     color: #1d1f20;
-    font-family: 'Raleway', sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 
 main {
@@ -2033,8 +2062,6 @@ main {
 ol.gradient-list {
     counter-reset: gradient-counter;
     list-style: none;
-    margin: 1.75rem 0;
-    padding-left: 1rem;
 }
 
 ol.gradient-list>div>li {

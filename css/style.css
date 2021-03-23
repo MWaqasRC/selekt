@@ -300,7 +300,7 @@ footer {
 /***********form section****/
 .form-section {
     padding: 100px 0px;
-    background: #231f20;
+    background: #f5f5f5;
     color: #fff;
 }
 
@@ -628,10 +628,6 @@ footer a {
 
     .right- {
         display: none;
-    }
-
-    .service-text {
-        background: #231f20;
     }
 
     .left- {

@@ -6,9 +6,9 @@
    <div class="container">
       <div class="row">
          <div class="col-md-8 col-lg-5  sep-sec-1 wow fadeIn">
-            <h4 class="sub-heading">restaurant</h4>
+            <h4 class="sub-heading">Try Secret Recipe of</h4>
             <h2 class="heading">Selekt Chicken</h2>
-            <p>Casual Dining in a new modern relaxed environment and ambiance <br>without compromising the speed, quality and consistency.</p>
+            <p class="heading-dec">Our unique fried chicken recipe includes a secret coating of fragrant spices and a deliciously zesty Peri-Peri sauce that turns our gourmet chicken burgers into taste explosions at affordable costs.</p>
          </div>
       </div>
 
@@ -18,13 +18,13 @@
          <div class="col-lg-8 pl-md-0">
             <div class="owl-carousel" id="sec-1-slider">
                <div class="item">
-                  <img src="images/rest-1.png" alt="" class="img-fluid">
+                  <img src="images/1-2.png" alt="" class="img-fluid">
                </div>
                <div class="item">
-                  <img src="images/rest-2.png" alt="" class="img-fluid">
+                  <img src="images/1-2.png" alt="" class="img-fluid">
                </div>
                <div class="item">
-                  <img src="images/rest-3.png" alt="" class="img-fluid">
+                  <img src="images/1-3.png" alt="" class="img-fluid">
                </div>
             </div>
          </div>

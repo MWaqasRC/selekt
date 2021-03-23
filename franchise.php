@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Frachisee</title>
+	<title>Franchise</title>
 	<!--------font-awesome----->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<!--bootstrap-->
@@ -16,7 +16,7 @@
 </head>
 
 <body>
-	<?php $page = 'frenchisee'; ?>
+	<?php $page = 'franchise'; ?>
 	<!--------header---------->
 	<?php include('header.php'); ?>
 	<!--------header end---------->
@@ -118,7 +118,7 @@
 			<div class="row">
 				<div class="col-md-8 offset-md-2">
 					<div class="text-center">
-						<h2 class="heading mb-3">What We Ask of You</h2>
+						<h2 class="heading mb-5">What We Ask of You</h2>
 						<ul class="list-unstyled  justify-content-center">
 							<li><i class="fa fa-star" aria-hidden="true"></i>Motivation</li>
 							<li><i class="fa fa-star" aria-hidden="true"></i>Commitment</li>
@@ -140,8 +140,8 @@
 				<div class="col-md-10 offset-md-1">
 					<div class="text-center">
 						<h2 class="heading">Application form</h2>
-						<h4 class="sub-heading mb-1" style="color: #fff">We’re A Team</h4>
-						<p class="heading-dec" style="color: #fff">We want to assure potential investors that we’re working hard to create a supportive and inclusive
+						<h4 class="sub-heading mb-1">We’re A Team</h4>
+						<p class="heading-dec">We want to assure potential investors that we’re working hard to create a supportive and inclusive
 							network of business owners who are driven by their passion for high-quality service offers and
 							customer satisfaction.</p>
 					</div>

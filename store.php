@@ -94,7 +94,7 @@
             </div>
         </div>
 
-        <div class="col-6 mx-auto my-5 text-center" id="list-country">
+        <div class="col-lg-6 col-md-12 mx-auto my-5 text-center" id="list-country">
             <div class="screen1" id="country1">
                 <div class="border-circle">
                     <img src="images/uk.png" alt="" class="img">

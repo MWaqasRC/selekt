@@ -9,7 +9,7 @@
             <div class="section-title text-center">
                <span class="sub-heading">Contact Us</span>
                <h2 class="heading">Get In Touch</h2>
-               <p class="sec-text text-md">We are available to discuss your needs, or answer any questions you may have. Enter your details and we will get back to you shortly.</p>
+               <p class="heading-dec">We are available to discuss your needs, or answer any questions you may have. Enter your details and we will get back to you shortly.</p>
             </div>
          </div>
       </div>

@@ -25,7 +25,7 @@
                      <li><a href="index.php">Home</a></li>
                      <li><a href="menu.php">Menu</a></li>
                      <li><a href="store.php">Stores</a></li>
-                     <li><a href="frenchisee.php">Franchise</a></li>
+                     <li><a href="franchise.php">Franchise</a></li>
                      <li><a href="about-us.php">About</a></li>
                      <li><a href="contact.php">Contact</a></li>
                   </ul>
@@ -48,7 +48,7 @@
             </div>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-7 become-f wow fadeInRight">
-          <h4>BECOME FRANCHISEE</h4>
+            <h4>BECOME FRANCHISEE</h4>
             <div class="footer-form">
                <form method="POST" action="footer-email.php">
                   <input type="email" name="EmailSubscribe" class="footer-input" placeholder="Enter your email..." required>
@@ -61,19 +61,19 @@
       </div>
    </div>
    <div class="bg-copyrights">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-6 col-lg-6 col-lg-5">
-            <p>Copyright  <?php echo date('Y'); ?> <a href="index.php">Selekt Chicken</a>. All rights reserved by Kore Consulting.</p>
-         </div>
-         <div class="col-md-6 col-lg-6 text-md-right">
-            <div class="copyright-2">
-              <a href="#">Privacy Policy</a>  |  <a href="#">Terms & Condition</a>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 col-lg-6 col-lg-5">
+               <p>Copyright <?php echo date('Y'); ?> <a href="index.php">Selekt Chicken</a>. All rights reserved by Kore Consulting.</p>
+            </div>
+            <div class="col-md-6 col-lg-6 text-md-right">
+               <div class="copyright-2">
+                  <a href="#">Privacy Policy</a> | <a href="#">Terms & Condition</a>
+               </div>
             </div>
          </div>
       </div>
    </div>
-</div>
 </footer>
 
 <!--Jquery-->
@@ -87,16 +87,15 @@
 <script src="script/vscustom-carousel.min.js"></script>
 <script src="script/site-script.js" type="text/javascript"></script>
 <script>
-   wow = new WOW(
-     {
-       animateClass: 'animated',
-       offset:       100,
-       callback:     function(box) {
+   wow = new WOW({
+      animateClass: 'animated',
+      offset: 100,
+      callback: function(box) {
          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-       }
-     }
-   );
+      }
+   });
    wow.init();
 </script>
 </body>
+
 </html>

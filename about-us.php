@@ -17,7 +17,7 @@
                   <div><img src="images/op4.jpg" alt="About Image"></div>
                   <div><img src="images/op5.jpg" alt="About Image"></div>
                </div>
-               <p class="about-text">Our menu does more than satisfy – it goes above and beyond the expectations of our customers. We pride ourselves on our attention to detail, demand, and drastic change in the fast-food industry. Here are some of the things that set us apart from the flock:</p>
+               <p class="heading-dec">Our menu does more than satisfy – it goes above and beyond the expectations of our customers. We pride ourselves on our attention to detail, demand, and drastic change in the fast-food industry.</p>
             </div>
          </div>
       </div>
@@ -35,7 +35,7 @@
                <h2 class="heading">Our Vision</h2>
                <p class="heading-dec" style="color: #fff; margin-bottom: 8px;">We’re working hard to become a key international and national franchise that provides customers with authentic and enjoyable casual dining experiences. We’re ready to start branching out, but to do that, we need the support of a loyal audience, dedicated investors, and enthusiastic franchisees
                   who are excited to become a part of our mission.</p>
-               <p class="heading-dec" style="color: #fff;    margin-bottom: 8px;">If you’d like to know more about how you can become a part of the Selekt Chicken family and franchise, look at our <a class="innerlinkhover" href="frenchisee.php">Franchise Page</a> or contact us directly by filling out our <a class="innerlinkhover" href="contact.php">contact form</a>.</p>
+               <p class="heading-dec" style="color: #fff;    margin-bottom: 8px;">If you’d like to know more about how you can become a part of the Selekt Chicken family and franchise, look at our <a class="innerlinkhover" href="franchise.php">Franchise Page</a> or contact us directly by filling out our <a class="innerlinkhover" href="contact.php">contact form</a>.</p>
             </div>
          </div>
       </div>

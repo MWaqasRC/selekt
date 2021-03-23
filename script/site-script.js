@@ -67,12 +67,8 @@ jQuery(document).ready(function ($) {
             600: {
                 items: 1,
             },
-            992: {
-                items: 1,
-            },
             1200: {
                 items: 1,
-
             }
         }
     });
